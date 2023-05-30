@@ -17,18 +17,18 @@
       
       
       <link rel="icon" href="../../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
     
       
-        <title>Namespace: K8sApi - Lens Extension Development</title>
+        <title>Renderer.K8sApi - Lens Extension Development</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7a7fce14.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -75,7 +75,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -125,32 +125,38 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Namespace: K8sApi
+              Renderer.K8sApi
             
           </span>
         </div>
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
+      
+        <form class="md-header__option" data-md-component="palette">
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </label>
+            
           
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
-            </label>
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+              </label>
+            
           
-        
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
-            </label>
-          
-        
-      </form>
+        </form>
+      
     
     
     
@@ -194,7 +200,7 @@
         <a href="https://github.com/lensapp/lens" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -238,7 +244,7 @@
       <a href="https://github.com/lensapp/lens" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -844,8 +850,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#deploymentapi" class="md-nav__link">
+    DeploymentApi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#endpoint" class="md-nav__link">
     Endpoint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#externalkubeapioptions" class="md-nav__link">
+    ExternalKubeApiOptions
   </a>
   
 </li>
@@ -860,6 +880,13 @@
           <li class="md-nav__item">
   <a href="#horizontalpodautoscalerstore" class="md-nav__link">
     HorizontalPodAutoscalerStore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ikubeapicluster" class="md-nav__link">
+    IKubeApiCluster
   </a>
   
 </li>
@@ -900,8 +927,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#ignoredkubeapioptions" class="md-nav__link">
+    IgnoredKubeApiOptions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ingress" class="md-nav__link">
     Ingress
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ingressapi" class="md-nav__link">
+    IngressApi
   </a>
   
 </li>
@@ -921,8 +962,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#kubeapi" class="md-nav__link">
+    KubeApi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#kubeevent" class="md-nav__link">
     KubeEvent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubejsonapi" class="md-nav__link">
+    KubeJsonApi
   </a>
   
 </li>
@@ -958,6 +1013,13 @@
           <li class="md-nav__item">
   <a href="#kubeobjectmetadata" class="md-nav__link">
     KubeObjectMetadata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubeobjectstore" class="md-nav__link">
+    KubeObjectStore
   </a>
   
 </li>
@@ -1033,6 +1095,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#nodesapi" class="md-nav__link">
+    NodesApi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#ownerreference" class="md-nav__link">
     OwnerReference
   </a>
@@ -1054,6 +1123,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#persistentvolumeclaimsapi" class="md-nav__link">
+    PersistentVolumeClaimsApi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#pod" class="md-nav__link">
     Pod
   </a>
@@ -1063,6 +1139,13 @@
           <li class="md-nav__item">
   <a href="#poddisruptionbudget" class="md-nav__link">
     PodDisruptionBudget
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#podsapi" class="md-nav__link">
+    PodsApi
   </a>
   
 </li>
@@ -1084,6 +1167,13 @@
           <li class="md-nav__item">
   <a href="#resourcequota" class="md-nav__link">
     ResourceQuota
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resourcestack" class="md-nav__link">
+    ResourceStack
   </a>
   
 </li>
@@ -1137,6 +1227,111 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#apimanager" class="md-nav__link">
+    apiManager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#createkubeobject" class="md-nav__link">
+    createKubeObject
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#createresourcestack" class="md-nav__link">
+    createResourceStack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forcluster" class="md-nav__link">
+    forCluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forremotecluster" class="md-nav__link">
+    forRemoteCluster
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#getpodsbyownerid" class="md-nav__link">
+    getPodsByOwnerId
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isjsonapidata" class="md-nav__link">
+    isJsonApiData
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isjsonapidatalist" class="md-nav__link">
+    isJsonApiDataList
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iskubejsonapilistmetadata" class="md-nav__link">
+    isKubeJsonApiListMetadata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iskubejsonapimetadata" class="md-nav__link">
+    isKubeJsonApiMetadata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iskubeobjectnonsystem" class="md-nav__link">
+    isKubeObjectNonSystem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iskubestatusdata" class="md-nav__link">
+    isKubeStatusData
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispartialjsonapidata" class="md-nav__link">
+    isPartialJsonApiData
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ispartialjsonapimetadata" class="md-nav__link">
+    isPartialJsonApiMetadata
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stringifylabels" class="md-nav__link">
+    stringifyLabels
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1149,55 +1344,6 @@
   
     <nav class="md-nav" aria-label="Type Aliases">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#deploymentapi" class="md-nav__link">
-    DeploymentApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ingressapi" class="md-nav__link">
-    IngressApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kubeapi" class="md-nav__link">
-    KubeApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kubejsonapi" class="md-nav__link">
-    KubeJsonApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nodesapi" class="md-nav__link">
-    NodesApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#persistentvolumeclaimsapi" class="md-nav__link">
-    PersistentVolumeClaimsApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#podsapi" class="md-nav__link">
-    PodsApi
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#requestmetrics" class="md-nav__link">
@@ -1218,62 +1364,6 @@
   
     <nav class="md-nav" aria-label="Variables">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#deploymentapi_1" class="md-nav__link">
-    DeploymentApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ingressapi_1" class="md-nav__link">
-    IngressApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kubeapi_1" class="md-nav__link">
-    KubeApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kubejsonapi_1" class="md-nav__link">
-    KubeJsonApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nodesapi_1" class="md-nav__link">
-    NodesApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#persistentvolumeclaimsapi_1" class="md-nav__link">
-    PersistentVolumeClaimsApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#podsapi_1" class="md-nav__link">
-    PodsApi
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#apimanager" class="md-nav__link">
-    apiManager
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#clusterroleapi" class="md-nav__link">
@@ -1318,7 +1408,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#deploymentapi_2" class="md-nav__link">
+  <a href="#deploymentapi_1" class="md-nav__link">
     deploymentApi
   </a>
   
@@ -1346,7 +1436,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ingressapi_2" class="md-nav__link">
+  <a href="#ingressapi_1" class="md-nav__link">
     ingressApi
   </a>
   
@@ -1381,7 +1471,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#nodesapi_2" class="md-nav__link">
+  <a href="#nodesapi_1" class="md-nav__link">
     nodesApi
   </a>
   
@@ -1409,7 +1499,7 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#podsapi_2" class="md-nav__link">
+  <a href="#podsapi_1" class="md-nav__link">
     podsApi
   </a>
   
@@ -1506,34 +1596,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#createresourcestack" class="md-nav__link">
-    createResourceStack
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#forcluster" class="md-nav__link">
-    forCluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#forremotecluster" class="md-nav__link">
-    forRemoteCluster
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#getpodsbyownerid" class="md-nav__link">
-    getPodsByOwnerId
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#isallowedresource" class="md-nav__link">
     isAllowedResource
   </a>
@@ -1567,6 +1629,7 @@
                   
 
 
+<p><a href="../../">@k8slens/extensions</a> / <a href="../">Exports</a> / <a href="../Renderer/">Renderer</a> / K8sApi</p>
 <h1 id="namespace-k8sapi">Namespace: K8sApi<a class="headerlink" href="#namespace-k8sapi" title="Permanent link">#</a></h1>
 <p><a href="../Renderer/">Renderer</a>.K8sApi</p>
 <h2 id="table-of-contents">Table of contents<a class="headerlink" href="#table-of-contents" title="Permanent link">#</a></h2>
@@ -1581,23 +1644,31 @@
 <li><a href="./#customresourcedefinition">CustomResourceDefinition</a></li>
 <li><a href="./#daemonset">DaemonSet</a></li>
 <li><a href="./#deployment">Deployment</a></li>
+<li><a href="./#deploymentapi">DeploymentApi</a></li>
 <li><a href="./#endpoint">Endpoint</a></li>
+<li><a href="./#externalkubeapioptions">ExternalKubeApiOptions</a></li>
 <li><a href="./#horizontalpodautoscaler">HorizontalPodAutoscaler</a></li>
 <li><a href="./#horizontalpodautoscalerstore">HorizontalPodAutoscalerStore</a></li>
+<li><a href="./#ikubeapicluster">IKubeApiCluster</a></li>
 <li><a href="./#ilocalkubeapiconfig">ILocalKubeApiConfig</a></li>
 <li><a href="./#ipodcontainer">IPodContainer</a></li>
 <li><a href="./#ipodcontainerstatus">IPodContainerStatus</a></li>
 <li><a href="./#iremotekubeapiconfig">IRemoteKubeApiConfig</a></li>
 <li><a href="./#isecretref">ISecretRef</a></li>
+<li><a href="./#ignoredkubeapioptions">IgnoredKubeApiOptions</a></li>
 <li><a href="./#ingress">Ingress</a></li>
+<li><a href="./#ingressapi">IngressApi</a></li>
 <li><a href="./#job">Job</a></li>
 <li><a href="./#jsonpatch">JsonPatch</a></li>
+<li><a href="./#kubeapi">KubeApi</a></li>
 <li><a href="./#kubeevent">KubeEvent</a></li>
+<li><a href="./#kubejsonapi">KubeJsonApi</a></li>
 <li><a href="./#kubejsonapidata">KubeJsonApiData</a></li>
 <li><a href="./#kubejsonapidatafor">KubeJsonApiDataFor</a></li>
 <li><a href="./#kubejsonapiobjectmetadata">KubeJsonApiObjectMetadata</a></li>
 <li><a href="./#kubeobject">KubeObject</a></li>
 <li><a href="./#kubeobjectmetadata">KubeObjectMetadata</a></li>
+<li><a href="./#kubeobjectstore">KubeObjectStore</a></li>
 <li><a href="./#kubeobjectstoreloadallparams">KubeObjectStoreLoadAllParams</a></li>
 <li><a href="./#kubeobjectstoreloadingparams">KubeObjectStoreLoadingParams</a></li>
 <li><a href="./#kubeobjectstoresubscribeparams">KubeObjectStoreSubscribeParams</a></li>
@@ -1608,14 +1679,18 @@
 <li><a href="./#namespacescopedmetadata">NamespaceScopedMetadata</a></li>
 <li><a href="./#networkpolicy">NetworkPolicy</a></li>
 <li><a href="./#node">Node</a></li>
+<li><a href="./#nodesapi">NodesApi</a></li>
 <li><a href="./#ownerreference">OwnerReference</a></li>
 <li><a href="./#persistentvolume">PersistentVolume</a></li>
 <li><a href="./#persistentvolumeclaim">PersistentVolumeClaim</a></li>
+<li><a href="./#persistentvolumeclaimsapi">PersistentVolumeClaimsApi</a></li>
 <li><a href="./#pod">Pod</a></li>
 <li><a href="./#poddisruptionbudget">PodDisruptionBudget</a></li>
+<li><a href="./#podsapi">PodsApi</a></li>
 <li><a href="./#priorityclass">PriorityClass</a></li>
 <li><a href="./#replicaset">ReplicaSet</a></li>
 <li><a href="./#resourcequota">ResourceQuota</a></li>
+<li><a href="./#resourcestack">ResourceStack</a></li>
 <li><a href="./#role">Role</a></li>
 <li><a href="./#rolebinding">RoleBinding</a></li>
 <li><a href="./#secret">Secret</a></li>
@@ -1623,6 +1698,21 @@
 <li><a href="./#serviceaccount">ServiceAccount</a></li>
 <li><a href="./#statefulset">StatefulSet</a></li>
 <li><a href="./#storageclass">StorageClass</a></li>
+<li><a href="./#apimanager">apiManager</a></li>
+<li><a href="./#createkubeobject">createKubeObject</a></li>
+<li><a href="./#createresourcestack">createResourceStack</a></li>
+<li><a href="./#forcluster">forCluster</a></li>
+<li><a href="./#forremotecluster">forRemoteCluster</a></li>
+<li><a href="./#getpodsbyownerid">getPodsByOwnerId</a></li>
+<li><a href="./#isjsonapidata">isJsonApiData</a></li>
+<li><a href="./#isjsonapidatalist">isJsonApiDataList</a></li>
+<li><a href="./#iskubejsonapilistmetadata">isKubeJsonApiListMetadata</a></li>
+<li><a href="./#iskubejsonapimetadata">isKubeJsonApiMetadata</a></li>
+<li><a href="./#iskubeobjectnonsystem">isKubeObjectNonSystem</a></li>
+<li><a href="./#iskubestatusdata">isKubeStatusData</a></li>
+<li><a href="./#ispartialjsonapidata">isPartialJsonApiData</a></li>
+<li><a href="./#ispartialjsonapimetadata">isPartialJsonApiMetadata</a></li>
+<li><a href="./#stringifylabels">stringifyLabels</a></li>
 </ul>
 <h3 id="enumerations">Enumerations<a class="headerlink" href="#enumerations" title="Permanent link">#</a></h3>
 <ul>
@@ -1642,7 +1732,6 @@
 <li><a href="../../classes/Renderer.K8sApi.IngressClassStore/">IngressClassStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.IngressStore/">IngressStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.JobStore/">JobStore</a></li>
-<li><a href="../../classes/Renderer.K8sApi.KubeObjectStore/">KubeObjectStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.LimitRangesStore/">LimitRangesStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.NamespaceStore/">NamespaceStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.NetworkPolicyStore/">NetworkPolicyStore</a></li>
@@ -1653,7 +1742,6 @@
 <li><a href="../../classes/Renderer.K8sApi.PriorityClassStoreStore/">PriorityClassStoreStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.ReplicaSetStore/">ReplicaSetStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.ResourceQuotasStore/">ResourceQuotasStore</a></li>
-<li><a href="../../classes/Renderer.K8sApi.ResourceStack/">ResourceStack</a></li>
 <li><a href="../../classes/Renderer.K8sApi.RoleBindingsStore/">RoleBindingsStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.RolesStore/">RolesStore</a></li>
 <li><a href="../../classes/Renderer.K8sApi.SecretsStore/">SecretsStore</a></li>
@@ -1666,9 +1754,6 @@
 </ul>
 <h3 id="interfaces">Interfaces<a class="headerlink" href="#interfaces" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="../../interfaces/Renderer.K8sApi.ExternalKubeApiOptions/">ExternalKubeApiOptions</a></li>
-<li><a href="../../interfaces/Renderer.K8sApi.IKubeApiCluster/">IKubeApiCluster</a></li>
-<li><a href="../../interfaces/Renderer.K8sApi.IgnoredKubeApiOptions/">IgnoredKubeApiOptions</a></li>
 <li><a href="../../interfaces/Renderer.K8sApi.KubeObjectStatus/">KubeObjectStatus</a></li>
 <li><a href="../../interfaces/Renderer.K8sApi.MetricData/">MetricData</a></li>
 <li><a href="../../interfaces/Renderer.K8sApi.MetricResult/">MetricResult</a></li>
@@ -1676,45 +1761,30 @@
 </ul>
 <h3 id="type-aliases">Type Aliases<a class="headerlink" href="#type-aliases" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="./#deploymentapi">DeploymentApi</a></li>
-<li><a href="./#ingressapi">IngressApi</a></li>
-<li><a href="./#kubeapi">KubeApi</a></li>
-<li><a href="./#kubejsonapi">KubeJsonApi</a></li>
-<li><a href="./#nodesapi">NodesApi</a></li>
-<li><a href="./#persistentvolumeclaimsapi">PersistentVolumeClaimsApi</a></li>
-<li><a href="./#podsapi">PodsApi</a></li>
 <li><a href="./#requestmetrics">RequestMetrics</a></li>
 </ul>
 <h3 id="variables">Variables<a class="headerlink" href="#variables" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="./#deploymentapi-1">DeploymentApi</a></li>
-<li><a href="./#ingressapi-1">IngressApi</a></li>
-<li><a href="./#kubeapi-1">KubeApi</a></li>
-<li><a href="./#kubejsonapi-1">KubeJsonApi</a></li>
-<li><a href="./#nodesapi-1">NodesApi</a></li>
-<li><a href="./#persistentvolumeclaimsapi-1">PersistentVolumeClaimsApi</a></li>
-<li><a href="./#podsapi-1">PodsApi</a></li>
-<li><a href="./#apimanager">apiManager</a></li>
 <li><a href="./#clusterroleapi">clusterRoleApi</a></li>
 <li><a href="./#clusterrolebindingapi">clusterRoleBindingApi</a></li>
 <li><a href="./#configmapapi">configMapApi</a></li>
 <li><a href="./#crdapi">crdApi</a></li>
 <li><a href="./#cronjobapi">cronJobApi</a></li>
 <li><a href="./#daemonsetapi">daemonSetApi</a></li>
-<li><a href="./#deploymentapi-2">deploymentApi</a></li>
+<li><a href="./#deploymentapi-1">deploymentApi</a></li>
 <li><a href="./#endpointapi">endpointApi</a></li>
 <li><a href="./#eventapi">eventApi</a></li>
 <li><a href="./#hpaapi">hpaApi</a></li>
-<li><a href="./#ingressapi-2">ingressApi</a></li>
+<li><a href="./#ingressapi-1">ingressApi</a></li>
 <li><a href="./#jobapi">jobApi</a></li>
 <li><a href="./#limitrangeapi">limitRangeApi</a></li>
 <li><a href="./#namespacesapi">namespacesApi</a></li>
 <li><a href="./#networkpolicyapi">networkPolicyApi</a></li>
-<li><a href="./#nodesapi-2">nodesApi</a></li>
+<li><a href="./#nodesapi-1">nodesApi</a></li>
 <li><a href="./#pcapi">pcApi</a></li>
 <li><a href="./#pdbapi">pdbApi</a></li>
 <li><a href="./#persistentvolumeapi">persistentVolumeApi</a></li>
-<li><a href="./#podsapi-2">podsApi</a></li>
+<li><a href="./#podsapi-1">podsApi</a></li>
 <li><a href="./#pvcapi">pvcApi</a></li>
 <li><a href="./#replicasetapi">replicaSetApi</a></li>
 <li><a href="./#resourcequotaapi">resourceQuotaApi</a></li>
@@ -1729,10 +1799,6 @@
 </ul>
 <h3 id="functions">Functions<a class="headerlink" href="#functions" title="Permanent link">#</a></h3>
 <ul>
-<li><a href="./#createresourcestack">createResourceStack</a></li>
-<li><a href="./#forcluster">forCluster</a></li>
-<li><a href="./#forremotecluster">forRemoteCluster</a></li>
-<li><a href="./#getpodsbyownerid">getPodsByOwnerId</a></li>
 <li><a href="./#isallowedresource">isAllowedResource</a></li>
 <li><a href="./#requestmetrics-1">requestMetrics</a></li>
 </ul>
@@ -1764,14 +1830,23 @@
 <h3 id="deployment">Deployment<a class="headerlink" href="#deployment" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Deployment/">Deployment</a></p>
 <hr />
+<h3 id="deploymentapi">DeploymentApi<a class="headerlink" href="#deploymentapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#deploymentapi-1">DeploymentApi</a></p>
+<hr />
 <h3 id="endpoint">Endpoint<a class="headerlink" href="#endpoint" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Endpoint/">Endpoint</a></p>
+<hr />
+<h3 id="externalkubeapioptions">ExternalKubeApiOptions<a class="headerlink" href="#externalkubeapioptions" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../../interfaces/Main.K8sApi.ExternalKubeApiOptions/">ExternalKubeApiOptions</a></p>
 <hr />
 <h3 id="horizontalpodautoscaler">HorizontalPodAutoscaler<a class="headerlink" href="#horizontalpodautoscaler" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.HorizontalPodAutoscaler/">HorizontalPodAutoscaler</a></p>
 <hr />
 <h3 id="horizontalpodautoscalerstore">HorizontalPodAutoscalerStore<a class="headerlink" href="#horizontalpodautoscalerstore" title="Permanent link">#</a></h3>
 <p>Renames and re-exports <a href="../../classes/Renderer.K8sApi.HPAStore/">HPAStore</a></p>
+<hr />
+<h3 id="ikubeapicluster">IKubeApiCluster<a class="headerlink" href="#ikubeapicluster" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../../interfaces/Main.K8sApi.IKubeApiCluster/">IKubeApiCluster</a></p>
 <hr />
 <h3 id="ilocalkubeapiconfig">ILocalKubeApiConfig<a class="headerlink" href="#ilocalkubeapiconfig" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../interfaces/Main.K8sApi.ILocalKubeApiConfig/">ILocalKubeApiConfig</a></p>
@@ -1788,8 +1863,14 @@
 <h3 id="isecretref">ISecretRef<a class="headerlink" href="#isecretref" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../interfaces/Main.K8sApi.ISecretRef/">ISecretRef</a></p>
 <hr />
+<h3 id="ignoredkubeapioptions">IgnoredKubeApiOptions<a class="headerlink" href="#ignoredkubeapioptions" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/">IgnoredKubeApiOptions</a></p>
+<hr />
 <h3 id="ingress">Ingress<a class="headerlink" href="#ingress" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Ingress/">Ingress</a></p>
+<hr />
+<h3 id="ingressapi">IngressApi<a class="headerlink" href="#ingressapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#ingressapi-1">IngressApi</a></p>
 <hr />
 <h3 id="job">Job<a class="headerlink" href="#job" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Job/">Job</a></p>
@@ -1797,8 +1878,14 @@
 <h3 id="jsonpatch">JsonPatch<a class="headerlink" href="#jsonpatch" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../Main.K8sApi/#jsonpatch">JsonPatch</a></p>
 <hr />
+<h3 id="kubeapi">KubeApi<a class="headerlink" href="#kubeapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#kubeapi-1">KubeApi</a></p>
+<hr />
 <h3 id="kubeevent">KubeEvent<a class="headerlink" href="#kubeevent" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.KubeEvent/">KubeEvent</a></p>
+<hr />
+<h3 id="kubejsonapi">KubeJsonApi<a class="headerlink" href="#kubejsonapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#kubejsonapi-1">KubeJsonApi</a></p>
 <hr />
 <h3 id="kubejsonapidata">KubeJsonApiData<a class="headerlink" href="#kubejsonapidata" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/">KubeJsonApiData</a></p>
@@ -1814,6 +1901,9 @@
 <hr />
 <h3 id="kubeobjectmetadata">KubeObjectMetadata<a class="headerlink" href="#kubeobjectmetadata" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../Main.K8sApi/#kubeobjectmetadata">KubeObjectMetadata</a></p>
+<hr />
+<h3 id="kubeobjectstore">KubeObjectStore<a class="headerlink" href="#kubeobjectstore" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../../classes/Main.K8sApi.KubeObjectStore/">KubeObjectStore</a></p>
 <hr />
 <h3 id="kubeobjectstoreloadallparams">KubeObjectStoreLoadAllParams<a class="headerlink" href="#kubeobjectstoreloadallparams" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../interfaces/Main.K8sApi.KubeObjectStoreLoadAllParams/">KubeObjectStoreLoadAllParams</a></p>
@@ -1845,6 +1935,9 @@
 <h3 id="node">Node<a class="headerlink" href="#node" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Node/">Node</a></p>
 <hr />
+<h3 id="nodesapi">NodesApi<a class="headerlink" href="#nodesapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#nodesapi-1">NodesApi</a></p>
+<hr />
 <h3 id="ownerreference">OwnerReference<a class="headerlink" href="#ownerreference" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../interfaces/Main.K8sApi.OwnerReference/">OwnerReference</a></p>
 <hr />
@@ -1854,11 +1947,17 @@
 <h3 id="persistentvolumeclaim">PersistentVolumeClaim<a class="headerlink" href="#persistentvolumeclaim" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.PersistentVolumeClaim/">PersistentVolumeClaim</a></p>
 <hr />
+<h3 id="persistentvolumeclaimsapi">PersistentVolumeClaimsApi<a class="headerlink" href="#persistentvolumeclaimsapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#persistentvolumeclaimsapi-1">PersistentVolumeClaimsApi</a></p>
+<hr />
 <h3 id="pod">Pod<a class="headerlink" href="#pod" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Pod/">Pod</a></p>
 <hr />
 <h3 id="poddisruptionbudget">PodDisruptionBudget<a class="headerlink" href="#poddisruptionbudget" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.PodDisruptionBudget/">PodDisruptionBudget</a></p>
+<hr />
+<h3 id="podsapi">PodsApi<a class="headerlink" href="#podsapi" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#podsapi-1">PodsApi</a></p>
 <hr />
 <h3 id="priorityclass">PriorityClass<a class="headerlink" href="#priorityclass" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.PriorityClass/">PriorityClass</a></p>
@@ -1868,6 +1967,9 @@
 <hr />
 <h3 id="resourcequota">ResourceQuota<a class="headerlink" href="#resourcequota" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.ResourceQuota/">ResourceQuota</a></p>
+<hr />
+<h3 id="resourcestack">ResourceStack<a class="headerlink" href="#resourcestack" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../../classes/Main.K8sApi.ResourceStack/">ResourceStack</a></p>
 <hr />
 <h3 id="role">Role<a class="headerlink" href="#role" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.Role/">Role</a></p>
@@ -1889,195 +1991,55 @@
 <hr />
 <h3 id="storageclass">StorageClass<a class="headerlink" href="#storageclass" title="Permanent link">#</a></h3>
 <p>Re-exports <a href="../../classes/Main.K8sApi.StorageClass/">StorageClass</a></p>
+<hr />
+<h3 id="apimanager">apiManager<a class="headerlink" href="#apimanager" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#apimanager">apiManager</a></p>
+<hr />
+<h3 id="createkubeobject">createKubeObject<a class="headerlink" href="#createkubeobject" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="createresourcestack">createResourceStack<a class="headerlink" href="#createresourcestack" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#createresourcestack">createResourceStack</a></p>
+<hr />
+<h3 id="forcluster">forCluster<a class="headerlink" href="#forcluster" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#forcluster">forCluster</a></p>
+<hr />
+<h3 id="forremotecluster">forRemoteCluster<a class="headerlink" href="#forremotecluster" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#forremotecluster">forRemoteCluster</a></p>
+<hr />
+<h3 id="getpodsbyownerid">getPodsByOwnerId<a class="headerlink" href="#getpodsbyownerid" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#getpodsbyownerid">getPodsByOwnerId</a></p>
+<hr />
+<h3 id="isjsonapidata">isJsonApiData<a class="headerlink" href="#isjsonapidata" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="isjsonapidatalist">isJsonApiDataList<a class="headerlink" href="#isjsonapidatalist" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="iskubejsonapilistmetadata">isKubeJsonApiListMetadata<a class="headerlink" href="#iskubejsonapilistmetadata" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="iskubejsonapimetadata">isKubeJsonApiMetadata<a class="headerlink" href="#iskubejsonapimetadata" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="iskubeobjectnonsystem">isKubeObjectNonSystem<a class="headerlink" href="#iskubeobjectnonsystem" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="iskubestatusdata">isKubeStatusData<a class="headerlink" href="#iskubestatusdata" title="Permanent link">#</a></h3>
+<p>Re-exports <a href="../Main.K8sApi/#iskubestatusdata">isKubeStatusData</a></p>
+<hr />
+<h3 id="ispartialjsonapidata">isPartialJsonApiData<a class="headerlink" href="#ispartialjsonapidata" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="ispartialjsonapimetadata">isPartialJsonApiMetadata<a class="headerlink" href="#ispartialjsonapimetadata" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
+<hr />
+<h3 id="stringifylabels">stringifyLabels<a class="headerlink" href="#stringifylabels" title="Permanent link">#</a></h3>
+<p>Renames and re-exports <a href="../../classes/Main.K8sApi.KubeObject/#__type">__type</a></p>
 <h2 id="type-aliases_1">Type Aliases<a class="headerlink" href="#type-aliases_1" title="Permanent link">#</a></h2>
-<h3 id="deploymentapi">DeploymentApi<a class="headerlink" href="#deploymentapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>DeploymentApi</strong>: <code>InternalDeploymentApi</code></p>
-<hr />
-<h3 id="ingressapi">IngressApi<a class="headerlink" href="#ingressapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>IngressApi</strong>: <code>InternalIngressApi</code></p>
-<hr />
-<h3 id="kubeapi">KubeApi<a class="headerlink" href="#kubeapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>KubeApi</strong>&lt;<code>Object</code>, <code>Data</code>>: <code>InternalKubeApi</code>&lt;<code>Object</code>, <code>Data</code>></p>
-<h4 id="type-parameters">Type parameters<a class="headerlink" href="#type-parameters" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a> = <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>> = <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="kubejsonapi">KubeJsonApi<a class="headerlink" href="#kubejsonapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>KubeJsonApi</strong>: <code>InternalKubeJsonApi</code></p>
-<hr />
-<h3 id="nodesapi">NodesApi<a class="headerlink" href="#nodesapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>NodesApi</strong>: <code>NodeApi</code></p>
-<hr />
-<h3 id="persistentvolumeclaimsapi">PersistentVolumeClaimsApi<a class="headerlink" href="#persistentvolumeclaimsapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>PersistentVolumeClaimsApi</strong>: <code>PersistentVolumeClaimApi</code></p>
-<hr />
-<h3 id="podsapi">PodsApi<a class="headerlink" href="#podsapi" title="Permanent link">#</a></h3>
-<p>Ƭ <strong>PodsApi</strong>: <code>PodApi</code></p>
-<hr />
 <h3 id="requestmetrics">RequestMetrics<a class="headerlink" href="#requestmetrics" title="Permanent link">#</a></h3>
 <p>Ƭ <strong>RequestMetrics</strong>: <code>ReturnType</code>&lt;typeof <code>requestMetricsInjectable</code>[<code>"instantiate"</code>]></p>
 <h2 id="variables_1">Variables<a class="headerlink" href="#variables_1" title="Permanent link">#</a></h2>
-<h3 id="deploymentapi_1">DeploymentApi<a class="headerlink" href="#deploymentapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>DeploymentApi</strong>: (<code>opts?</code>: <code>DerivedKubeApiOptions</code>) =&gt; <code>DeploymentApi</code></p>
-<h4 id="type-declaration">Type declaration<a class="headerlink" href="#type-declaration" title="Permanent link">#</a></h4>
-<p>• <strong>new DeploymentApi</strong>(<code>opts?</code>)</p>
-<h5 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts?</code></td>
-<td align="left"><code>DerivedKubeApiOptions</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="ingressapi_1">IngressApi<a class="headerlink" href="#ingressapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>IngressApi</strong>: (<code>opts?</code>: <code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a>) =&gt; <code>IngressApi</code></p>
-<h4 id="type-declaration_1">Type declaration<a class="headerlink" href="#type-declaration_1" title="Permanent link">#</a></h4>
-<p>• <strong>new IngressApi</strong>(<code>opts?</code>)</p>
-<h5 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts?</code></td>
-<td align="left"><code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="kubeapi_1">KubeApi<a class="headerlink" href="#kubeapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>KubeApi</strong>: &lt;Object_1, Data>(<code>opts</code>: <code>KubeApiOptions</code>&lt;<code>Object_1</code>, <code>Data</code>> &amp; <a href="../../interfaces/Main.K8sApi.ExternalKubeApiOptions/"><code>ExternalKubeApiOptions</code></a>) =&gt; <code>KubeApi</code>&lt;<code>Object_1</code>, <code>Data</code>></p>
-<h4 id="type-declaration_2">Type declaration<a class="headerlink" href="#type-declaration_2" title="Permanent link">#</a></h4>
-<p>• <strong>new KubeApi</strong>&lt;<code>Object_1</code>, <code>Data</code>>(<code>opts</code>)</p>
-<h5 id="type-parameters_1">Type parameters<a class="headerlink" href="#type-parameters_1" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object_1</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Object_1</code>> = <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/"><code>KubeJsonApiData</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Data</code>> = <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object_1</code>></td>
-</tr>
-</tbody>
-</table>
-<h5 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts</code></td>
-<td align="left"><code>KubeApiOptions</code>&lt;<code>Object_1</code>, <code>Data</code>> &amp; <a href="../../interfaces/Main.K8sApi.ExternalKubeApiOptions/"><code>ExternalKubeApiOptions</code></a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="kubejsonapi_1">KubeJsonApi<a class="headerlink" href="#kubejsonapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>KubeJsonApi</strong>: (<code>config</code>: <code>JsonApiConfig</code>, <code>reqInit?</code>: <code>RequestInit</code>) =&gt; <code>KubeJsonApi</code> &amp; { <code>forCluster</code>: <code>CreateKubeJsonApiForCluster</code>  }</p>
-<hr />
-<h3 id="nodesapi_1">NodesApi<a class="headerlink" href="#nodesapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>NodesApi</strong>: (<code>opts?</code>: <code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a>) =&gt; <code>NodeApi</code></p>
-<h4 id="type-declaration_3">Type declaration<a class="headerlink" href="#type-declaration_3" title="Permanent link">#</a></h4>
-<p>• <strong>new NodesApi</strong>(<code>opts?</code>)</p>
-<h5 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts?</code></td>
-<td align="left"><code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="persistentvolumeclaimsapi_1">PersistentVolumeClaimsApi<a class="headerlink" href="#persistentvolumeclaimsapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>PersistentVolumeClaimsApi</strong>: (<code>opts?</code>: <code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a>) =&gt; <code>PersistentVolumeClaimApi</code></p>
-<h4 id="type-declaration_4">Type declaration<a class="headerlink" href="#type-declaration_4" title="Permanent link">#</a></h4>
-<p>• <strong>new PersistentVolumeClaimsApi</strong>(<code>opts?</code>)</p>
-<h5 id="parameters_4">Parameters<a class="headerlink" href="#parameters_4" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts?</code></td>
-<td align="left"><code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="podsapi_1">PodsApi<a class="headerlink" href="#podsapi_1" title="Permanent link">#</a></h3>
-<p>• <strong>PodsApi</strong>: (<code>opts?</code>: <code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a>) =&gt; <code>PodApi</code></p>
-<h4 id="type-declaration_5">Type declaration<a class="headerlink" href="#type-declaration_5" title="Permanent link">#</a></h4>
-<p>• <strong>new PodsApi</strong>(<code>opts?</code>)</p>
-<h5 id="parameters_5">Parameters<a class="headerlink" href="#parameters_5" title="Permanent link">#</a></h5>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>opts?</code></td>
-<td align="left"><code>DerivedKubeApiOptions</code> &amp; <a href="../../interfaces/Main.K8sApi.IgnoredKubeApiOptions/"><code>IgnoredKubeApiOptions</code></a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="apimanager">apiManager<a class="headerlink" href="#apimanager" title="Permanent link">#</a></h3>
-<p>• <code>Const</code> <strong>apiManager</strong>: <code>ApiManager</code></p>
-<hr />
 <h3 id="clusterroleapi">clusterRoleApi<a class="headerlink" href="#clusterroleapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>clusterRoleApi</strong>: <code>ClusterRoleApi</code></p>
 <hr />
@@ -2096,7 +2058,7 @@
 <h3 id="daemonsetapi">daemonSetApi<a class="headerlink" href="#daemonsetapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>daemonSetApi</strong>: <code>DaemonSetApi</code></p>
 <hr />
-<h3 id="deploymentapi_2">deploymentApi<a class="headerlink" href="#deploymentapi_2" title="Permanent link">#</a></h3>
+<h3 id="deploymentapi_1">deploymentApi<a class="headerlink" href="#deploymentapi_1" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>deploymentApi</strong>: <code>DeploymentApi</code></p>
 <hr />
 <h3 id="endpointapi">endpointApi<a class="headerlink" href="#endpointapi" title="Permanent link">#</a></h3>
@@ -2108,7 +2070,7 @@
 <h3 id="hpaapi">hpaApi<a class="headerlink" href="#hpaapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>hpaApi</strong>: <code>HorizontalPodAutoscalerApi</code></p>
 <hr />
-<h3 id="ingressapi_2">ingressApi<a class="headerlink" href="#ingressapi_2" title="Permanent link">#</a></h3>
+<h3 id="ingressapi_1">ingressApi<a class="headerlink" href="#ingressapi_1" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>ingressApi</strong>: <code>IngressApi</code></p>
 <hr />
 <h3 id="jobapi">jobApi<a class="headerlink" href="#jobapi" title="Permanent link">#</a></h3>
@@ -2123,7 +2085,7 @@
 <h3 id="networkpolicyapi">networkPolicyApi<a class="headerlink" href="#networkpolicyapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>networkPolicyApi</strong>: <code>NetworkPolicyApi</code></p>
 <hr />
-<h3 id="nodesapi_2">nodesApi<a class="headerlink" href="#nodesapi_2" title="Permanent link">#</a></h3>
+<h3 id="nodesapi_1">nodesApi<a class="headerlink" href="#nodesapi_1" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>nodesApi</strong>: <code>NodeApi</code></p>
 <hr />
 <h3 id="pcapi">pcApi<a class="headerlink" href="#pcapi" title="Permanent link">#</a></h3>
@@ -2135,7 +2097,7 @@
 <h3 id="persistentvolumeapi">persistentVolumeApi<a class="headerlink" href="#persistentvolumeapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>persistentVolumeApi</strong>: <code>PersistentVolumeApi</code></p>
 <hr />
-<h3 id="podsapi_2">podsApi<a class="headerlink" href="#podsapi_2" title="Permanent link">#</a></h3>
+<h3 id="podsapi_1">podsApi<a class="headerlink" href="#podsapi_1" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>podsApi</strong>: <code>PodApi</code></p>
 <hr />
 <h3 id="pvcapi">pvcApi<a class="headerlink" href="#pvcapi" title="Permanent link">#</a></h3>
@@ -2171,245 +2133,9 @@
 <h3 id="vpaapi">vpaApi<a class="headerlink" href="#vpaapi" title="Permanent link">#</a></h3>
 <p>• <code>Const</code> <strong>vpaApi</strong>: <code>VerticalPodAutoscalerApi</code></p>
 <h2 id="functions_1">Functions<a class="headerlink" href="#functions_1" title="Permanent link">#</a></h2>
-<h3 id="createresourcestack">createResourceStack<a class="headerlink" href="#createresourcestack" title="Permanent link">#</a></h3>
-<p>▸ <strong>createResourceStack</strong>(<code>cluster</code>, <code>name</code>): <code>ResourceApplyingStack</code></p>
-<h4 id="parameters_6">Parameters<a class="headerlink" href="#parameters_6" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>cluster</code></td>
-<td align="left"><a href="../../classes/Common.Catalog.KubernetesCluster/"><code>KubernetesCluster</code></a>&lt;<a href="../../interfaces/Common.Catalog.KubernetesClusterMetadata/"><code>KubernetesClusterMetadata</code></a>, <a href="../../interfaces/Common.Catalog.KubernetesClusterStatus/"><code>KubernetesClusterStatus</code></a>, <a href="../../interfaces/Common.Catalog.KubernetesClusterSpec/"><code>KubernetesClusterSpec</code></a>></td>
-</tr>
-<tr>
-<td align="left"><code>name</code></td>
-<td align="left"><code>string</code></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
-<p><code>ResourceApplyingStack</code></p>
-<hr />
-<h3 id="forcluster">forCluster<a class="headerlink" href="#forcluster" title="Permanent link">#</a></h3>
-<p>▸ <strong>forCluster</strong>&lt;<code>Object</code>, <code>Api</code>, <code>Data</code>>(<code>cluster</code>, <code>kubeClass</code>, <code>apiClass</code>): <code>Api</code></p>
-<h4 id="type-parameters_2">Type parameters<a class="headerlink" href="#type-parameters_2" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Object</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Api</code></td>
-<td align="left">extends <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>, <code>Api</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/"><code>KubeJsonApiData</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Data</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="parameters_7">Parameters<a class="headerlink" href="#parameters_7" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>cluster</code></td>
-<td align="left"><a href="../../interfaces/Main.K8sApi.ILocalKubeApiConfig/"><code>ILocalKubeApiConfig</code></a></td>
-</tr>
-<tr>
-<td align="left"><code>kubeClass</code></td>
-<td align="left"><code>KubeObjectConstructor</code>&lt;<code>Object</code>, <code>Data</code>></td>
-</tr>
-<tr>
-<td align="left"><code>apiClass</code></td>
-<td align="left"><code>KubeApiConstructor</code>&lt;<code>Object</code>, <code>Api</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
-<p><code>Api</code></p>
-<p>▸ <strong>forCluster</strong>&lt;<code>Object</code>, <code>Data</code>>(<code>cluster</code>, <code>kubeClass</code>, <code>apiClass?</code>): <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>></p>
-<h4 id="type-parameters_3">Type parameters<a class="headerlink" href="#type-parameters_3" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Object</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/"><code>KubeJsonApiData</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Data</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="parameters_8">Parameters<a class="headerlink" href="#parameters_8" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>cluster</code></td>
-<td align="left"><a href="../../interfaces/Main.K8sApi.ILocalKubeApiConfig/"><code>ILocalKubeApiConfig</code></a></td>
-</tr>
-<tr>
-<td align="left"><code>kubeClass</code></td>
-<td align="left"><code>KubeObjectConstructor</code>&lt;<code>Object</code>, <code>Data</code>></td>
-</tr>
-<tr>
-<td align="left"><code>apiClass?</code></td>
-<td align="left"><code>KubeApiConstructor</code>&lt;<code>Object</code>, <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
-<p><code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>></p>
-<hr />
-<h3 id="forremotecluster">forRemoteCluster<a class="headerlink" href="#forremotecluster" title="Permanent link">#</a></h3>
-<p>▸ <strong>forRemoteCluster</strong>&lt;<code>Object</code>, <code>Api</code>, <code>Data</code>>(<code>config</code>, <code>kubeClass</code>, <code>apiClass</code>): <code>Api</code></p>
-<h4 id="type-parameters_4">Type parameters<a class="headerlink" href="#type-parameters_4" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Object</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Api</code></td>
-<td align="left">extends <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>, <code>Api</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/"><code>KubeJsonApiData</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Data</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="parameters_9">Parameters<a class="headerlink" href="#parameters_9" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>config</code></td>
-<td align="left"><a href="../../interfaces/Main.K8sApi.IRemoteKubeApiConfig/"><code>IRemoteKubeApiConfig</code></a></td>
-</tr>
-<tr>
-<td align="left"><code>kubeClass</code></td>
-<td align="left"><code>KubeObjectConstructor</code>&lt;<code>Object</code>, <code>Data</code>></td>
-</tr>
-<tr>
-<td align="left"><code>apiClass</code></td>
-<td align="left"><code>KubeApiConstructor</code>&lt;<code>Object</code>, <code>Api</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">#</a></h4>
-<p><code>Api</code></p>
-<p>▸ <strong>forRemoteCluster</strong>&lt;<code>Object</code>, <code>Data</code>>(<code>config</code>, <code>kubeClass</code>, <code>apiClass?</code>): <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>></p>
-<h4 id="type-parameters_5">Type parameters<a class="headerlink" href="#type-parameters_5" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>Object</code></td>
-<td align="left">extends <a href="../../classes/Main.K8sApi.KubeObject/"><code>KubeObject</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Object</code>></td>
-</tr>
-<tr>
-<td align="left"><code>Data</code></td>
-<td align="left">extends <a href="../../interfaces/Main.K8sApi.KubeJsonApiData/"><code>KubeJsonApiData</code></a>&lt;<a href="../Main.K8sApi/#kubeobjectmetadata"><code>KubeObjectMetadata</code></a>&lt;<code>KubeObjectScope</code>>, <code>unknown</code>, <code>unknown</code>, <code>Data</code>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="parameters_10">Parameters<a class="headerlink" href="#parameters_10" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>config</code></td>
-<td align="left"><a href="../../interfaces/Main.K8sApi.IRemoteKubeApiConfig/"><code>IRemoteKubeApiConfig</code></a></td>
-</tr>
-<tr>
-<td align="left"><code>kubeClass</code></td>
-<td align="left"><code>KubeObjectConstructor</code>&lt;<code>Object</code>, <code>Data</code>></td>
-</tr>
-<tr>
-<td align="left"><code>apiClass?</code></td>
-<td align="left"><code>KubeApiConstructor</code>&lt;<code>Object</code>, <code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>>></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns_4">Returns<a class="headerlink" href="#returns_4" title="Permanent link">#</a></h4>
-<p><code>KubeApi</code>&lt;<code>Object</code>, <a href="../Main.K8sApi/#kubejsonapidatafor"><code>KubeJsonApiDataFor</code></a>&lt;<code>Object</code>>></p>
-<hr />
-<h3 id="getpodsbyownerid">getPodsByOwnerId<a class="headerlink" href="#getpodsbyownerid" title="Permanent link">#</a></h3>
-<p>▸ <strong>getPodsByOwnerId</strong>(<code>ownerId</code>): <a href="../../classes/Main.K8sApi.Pod/"><code>Pod</code></a>[]</p>
-<h4 id="parameters_11">Parameters<a class="headerlink" href="#parameters_11" title="Permanent link">#</a></h4>
-<table>
-<thead>
-<tr>
-<th align="left">Name</th>
-<th align="left">Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left"><code>ownerId</code></td>
-<td align="left"><code>string</code></td>
-</tr>
-</tbody>
-</table>
-<h4 id="returns_5">Returns<a class="headerlink" href="#returns_5" title="Permanent link">#</a></h4>
-<p><a href="../../classes/Main.K8sApi.Pod/"><code>Pod</code></a>[]</p>
-<hr />
 <h3 id="isallowedresource">isAllowedResource<a class="headerlink" href="#isallowedresource" title="Permanent link">#</a></h3>
 <p>▸ <strong>isAllowedResource</strong>(<code>resources</code>): <code>boolean</code></p>
-<h4 id="parameters_12">Parameters<a class="headerlink" href="#parameters_12" title="Permanent link">#</a></h4>
+<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2424,12 +2150,12 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_6">Returns<a class="headerlink" href="#returns_6" title="Permanent link">#</a></h4>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">#</a></h4>
 <p><code>boolean</code></p>
 <hr />
 <h3 id="requestmetrics_1">requestMetrics<a class="headerlink" href="#requestmetrics_1" title="Permanent link">#</a></h3>
 <p>▸ <strong>requestMetrics</strong>(<code>query</code>, <code>params?</code>): <code>Promise</code>&lt;<a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>></p>
-<h4 id="parameters_13">Parameters<a class="headerlink" href="#parameters_13" title="Permanent link">#</a></h4>
+<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2448,10 +2174,10 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_7">Returns<a class="headerlink" href="#returns_7" title="Permanent link">#</a></h4>
+<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>></p>
 <p>▸ <strong>requestMetrics</strong>(<code>query</code>, <code>params?</code>): <code>Promise</code>&lt;<a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>[]></p>
-<h4 id="parameters_14">Parameters<a class="headerlink" href="#parameters_14" title="Permanent link">#</a></h4>
+<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2470,10 +2196,10 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_8">Returns<a class="headerlink" href="#returns_8" title="Permanent link">#</a></h4>
+<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>[]></p>
 <p>▸ <strong>requestMetrics</strong>&lt;<code>Keys</code>>(<code>query</code>, <code>params?</code>): <code>Promise</code>&lt;<code>Record</code>&lt;<code>Keys</code>, <a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>>></p>
-<h4 id="type-parameters_6">Type parameters<a class="headerlink" href="#type-parameters_6" title="Permanent link">#</a></h4>
+<h4 id="type-parameters">Type parameters<a class="headerlink" href="#type-parameters" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2488,7 +2214,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="parameters_15">Parameters<a class="headerlink" href="#parameters_15" title="Permanent link">#</a></h4>
+<h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">#</a></h4>
 <table>
 <thead>
 <tr>
@@ -2507,7 +2233,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="returns_9">Returns<a class="headerlink" href="#returns_9" title="Permanent link">#</a></h4>
+<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">#</a></h4>
 <p><code>Promise</code>&lt;<code>Record</code>&lt;<code>Keys</code>, <a href="../../interfaces/Renderer.K8sApi.MetricData/"><code>MetricData</code></a>>></p>
 
 
@@ -2545,7 +2271,7 @@
     
     
     <a href="https://github.com/lensapp/lens" target="_blank" rel="noopener" title="Lens on GitHub" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
     </a>
   
     
@@ -2553,7 +2279,7 @@
     
     
     <a href="https://twitter.com/k8slens" target="_blank" rel="noopener" title="Lens on Twitter" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
     </a>
   
     
@@ -2561,7 +2287,7 @@
     
     
     <a href="https://forums.k8slens.dev/" target="_blank" rel="noopener" title="Lens Forums" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M225.9 32C103.3 32 0 130.5 0 252.1 0 256 .1 480 .1 480l225.8-.2c122.7 0 222.1-102.3 222.1-223.9C448 134.3 348.6 32 225.9 32zM224 384c-19.4 0-37.9-4.3-54.4-12.1L88.5 392l22.9-75c-9.8-18.1-15.4-38.9-15.4-61 0-70.7 57.3-128 128-128s128 57.3 128 128-57.3 128-128 128z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M225.9 32C103.3 32 0 130.5 0 252.1 0 256 .1 480 .1 480l225.8-.2c122.7 0 222.1-102.3 222.1-223.9C448 134.3 348.6 32 225.9 32zM224 384c-19.4 0-37.9-4.3-54.4-12.1L88.5 392l22.9-75c-9.8-18.1-15.4-38.9-15.4-61 0-70.7 57.3-128 128-128s128 57.3 128 128-57.3 128-128 128z"/></svg>
     </a>
   
     
@@ -2569,7 +2295,7 @@
     
     
     <a href="https://k8slens.dev/" target="_blank" rel="noopener" title="Lens Website" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6 31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0l112.3-112.3zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5 50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5l112.2-112.3c31.5-31.5 82.5-31.5 114 0 27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6 31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0l112.3-112.3zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5 50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5l112.2-112.3c31.5-31.5 82.5-31.5 114 0 27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg>
     </a>
   
 </div>
@@ -2586,7 +2312,7 @@
     <script id="__config" type="application/json">{"base": "../../../..", "features": ["toc.autohide", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.407015b8.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.b4d07000.min.js"></script>
       
     
   </body>
